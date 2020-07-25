@@ -1,14 +1,17 @@
 package StringsClass1;
 import edu.duke.*;
+https://www.dukelearntoprogram.com/course2/doc/
 
 
 /**
- * Write a description of Part4 here.
+ * Find certain links in a file containing multiple URLS
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Allana Bailey
+ * @version 1
  */
-public class Part4 {
+public class findLinksInFile {
+    
+    //add to the StorageResource all links matching the searchString, found between quotation marks.
     public StorageResource findWebLinks(String url, String searchString) {
         URLResource ur = new URLResource(url);
         StorageResource myList = new StorageResource();
